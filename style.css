@@ -7,12 +7,35 @@ body {
     margin: 0; /* Remove default body margin */
     color: white;
     font-family: Arial, sans-serif;
+    background-position: center;
+}
+
+header{
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: #00000080;
+    height: 7vh;
+    color: #ffffffe3;
+    text-align: center;
+    font-family: 'papyrus', 'Franklin Gothic', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom:30px;
+    text-shadow: 10px 10px 10px #000000;
+    padding: 10px 20px 10px 20px;
+
 }
 
 main {
     background-color: #00000080; /* Transparent black background */
     min-height: 80vh;
-    padding: 20px; /* Add some padding for better readability */
+    padding: 10px; /* Add some padding for better readability */
     box-sizing: border-box; /* Include padding in the element's total width and height */
     max-width: 900px; /* Limit the width of the main content area */
     margin: 60px auto; /* Center the main content area and add some top/bottom margin */
@@ -25,9 +48,30 @@ h1 {
     margin-bottom: 0px;
 }
 
+h2 {
+    text-align: center;
+    color: #9fa39fe3;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 10px;
+}
+
 h1, h2, h3 {
     text-align: center;
     margin: 10px 0;
+}
+
+a {
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: #9ffca4e3;
+    text-decoration: wavy underline #9fa39fe3;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    text-indent: 2em;
 }
 
 p2, p3, p4 {
@@ -108,4 +152,18 @@ img.img-fluid {
     display: block; /* Ensure image takes its own line */
     margin: 20px auto; /* Center the image */
 }
+
+footer {
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: #00000080;
+    height: 5vh;
+    color: #ffffff;
+    /* Removed positioning to allow natural flow */
+    text-align: center;
+    font-style: italic;
+    font-family: 'papyrus', 'Franklin Gothic', Arial, sans-serif;
+    margin-top: 20px; /* Add margin to separate from main content */
+}
+
 
