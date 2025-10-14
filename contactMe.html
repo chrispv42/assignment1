@@ -1,0 +1,135 @@
+<!DOCTYPE html>  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="unitStyle.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1 style="text-align:center; margin-bottom: 2px;">My Contact</h1>
+      <nav>
+          <a href="./index.html">Home</a>
+          <a href="./contactMe.html" target="_blank">Contact</a>
+      </nav>
+    </header>
+              
+    <main>
+      <p class="subtext"><strong>Please, feel free to reach out with any questions or would like to book me.</strong></p>
+              
+      <form action="/contactMe.html" method="GET">
+        <label>
+            First Name:
+            <input 
+              type="text" 
+              id="firstName" 
+              name="firstName"    
+              placeholder="First Name" 
+              required
+            />
+        </label>
+            
+        <label>
+            Last Name:
+            <input 
+              type="text" 
+              id="lastName" 
+              name="lastName" 
+              placeholder="Last Name" 
+              required 
+            />
+        </label>
+
+        <label>
+            E-mail:
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Your Email" 
+              required
+            />
+        </label>
+
+        <label>
+            Phone Number:
+            <input 
+              type="tel" id="phoneNumber" 
+              name="phoneNumber" 
+              placeholder="555-555-5555" 
+              required
+            />
+        </label>
+
+        <label>
+            Message:
+            <textarea 
+              id="message" 
+              name="message" 
+              placeholder="Your Message" 
+              required></textarea>
+        </label>
+        <label>
+            <strong>
+                How did you hear about me?                
+            </strong>          
+        </label>
+        <label>
+            <input 
+              type="radio" 
+              name="referral" 
+              value="socialMedia" 
+            />
+              Social Media
+        </label>
+
+        <label>
+            <input 
+              type="radio" 
+              name="referral" 
+              value="friendFamily" 
+            />
+              Friend/Family
+        </label>
+
+        <label>
+            <input 
+              type="radio" 
+              name="referral" 
+              value="searchEngine" 
+            />
+              Search Engine
+        </label>
+                
+
+        </label> 
+            <input 
+              type="checkbox" 
+              id="terms" 
+              name="terms may apply" 
+              required 
+            />
+        <label>
+          I agree to subscribe to quarterly updates
+        </label>
+
+        <button type="submit">Send Message</button>
+        <button type="reset">Clear Form</button>
+        <div id="message-display"></div>
+      </form>
+
+      <img 
+          class="img-fluid"
+          src="./Images/finalAbbey.png"
+          alt="Abbey Lane Beatles Transparent"
+            />
+    </main>
+    <footer>
+    &copy; 2025 Vine Webs. All rights reserved. 
+    </footer>
+  </body>
+</html>

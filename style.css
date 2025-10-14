@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to bottom right, #000000, #006600, #000000); /* Dark green gradient from top-left to bottom-right */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed during scroll */
+    min-height: 100vh; /* Ensure the body spans the full viewport height */
+    margin: 0; /* Remove default body margin */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: #00000080; /* Transparent black background */
+    min-height: 80vh;
+    padding: 20px; /* Add some padding for better readability */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    max-width: 900px; /* Limit the width of the main content area */
+    margin: 60px auto; /* Center the main content area and add some top/bottom margin */
+    border-radius: 8px; /* Rounded corners for the main content area */
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+p2, p3, p4 {
+    display: block;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #9ffca4e3; /* Yellow color for emphasis */
+}
+
+p.subtext {
+    color: #FF6600; 
+    font-size: clamp(1em, 4vw, 2em); 
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+    max-width: 90vw;
+    box-sizing: border-box;
+}
+
+form {
+    color: #FF6600;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px; /* Increased margin for spacing */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+form textarea {
+    width: 100%; /* Adjust width for padding */
+    min-height: 100px; /* Set a minimum height */
+}
+
+form .label-text {
+    margin-bottom: 5px; /* Space between label text and input */
+}
+
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    margin-left: 5px; /* Space between radio/checkbox and its label */
+}
+
+form button {
+    background-color: #006600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 20px; /* Add top margin for buttons */
+}
+
+form button[type="reset"] {
+    background-color: #0088ff;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block; /* Ensure image takes its own line */
+    margin: 20px auto; /* Center the image */
+}
+

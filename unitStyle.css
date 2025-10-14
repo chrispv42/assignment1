@@ -1,0 +1,68 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+}  
+
+header{
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: #00000080;
+    height: 7vh;
+    color: #ffffffe3;
+    text-align: center;
+    font-family: 'papyrus', 'Franklin Gothic', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom:30px;
+    text-shadow: 10px 10px 10px #000000;
+    padding: 10px 20px 10px 20px;
+
+}
+
+main {
+    /* Removed fixed height to allow content to expand */
+    padding: 10px;
+    margin: 1px;
+}
+
+h2 {
+    text-align: center;
+    color: #9fa39fe3;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 10px;
+}
+
+a {
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: #9ffca4e3;
+    text-decoration: wavy underline #9fa39fe3;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    text-indent: 2em;
+}
+
+footer {
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: #00000080;
+    height: 5vh;
+    color: #ffffff;
+    /* Removed positioning to allow natural flow */
+    text-align: center;
+    font-style: italic;
+    font-family: 'papyrus', 'Franklin Gothic', Arial, sans-serif;
+    margin-top: 20px; /* Add margin to separate from main content */
+}
